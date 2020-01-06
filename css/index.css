@@ -138,13 +138,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #F2F2F2;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Roboto', sans-serif;
-}
 h1 {
   font-size: 4rem;
 }
@@ -172,7 +165,7 @@ img {
 }
 .navigation i {
   width: 50%;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 .navigation .links {
   width: 45%;
@@ -202,6 +195,7 @@ img {
   font-size: 7rem;
   font-weight: bold;
   color: white;
+  margin-bottom: 5%;
 }
 .home button {
   background-color: grey;
@@ -219,6 +213,24 @@ img {
 }
 .home button:hover {
   opacity: 100;
+}
+.middle {
+  background-image: url(https://images.pexels.com/photos/791763/pexels-photo-791763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: 50% 50%;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  opacity: 70%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.middle h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #F26363;
 }
 .main {
   margin: 6% 2%;
@@ -245,15 +257,15 @@ img {
 }
 .main .tools #one {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
 }
 .main .tools #two {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
 }
 .main .tools #three {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
 }
 .second {
   margin: 6% 2%;
@@ -282,16 +294,27 @@ img {
 .second .testimonials {
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 .second .testimonials #four {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
 }
 .second .testimonials #five {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
 }
 .second .testimonials #six {
   text-align: center;
-  padding: 0% 3%;
+  padding: 0% 5%;
+}
+footer {
+  text-align: center;
+  background-color: #69868C;
+  padding-top: 1.5%;
+}
+footer p {
+  color: #F2F2F2;
+  font-size: 1.4rem;
+  padding-bottom: 1%;
 }
