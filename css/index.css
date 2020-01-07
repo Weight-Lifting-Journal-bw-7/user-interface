@@ -194,6 +194,7 @@ img {
   font-size: 1.7rem;
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 @media (max-width: 500px) {
   .navigation .links {
@@ -400,10 +401,21 @@ footer p {
   height: 40vh;
 }
 .us .us_two {
-  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
+  width: 55%;
 }
 .us .us_two #four {
-  margin: 4% 10%;
-  width: 30%;
+  margin: 4% 3%;
+  width: 26%;
+}
+@media (max-width: 500px) {
+  .us .us_two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .us .us_two #four {
+    width: 100%;
+  }
 }
