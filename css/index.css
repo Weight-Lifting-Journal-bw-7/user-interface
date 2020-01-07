@@ -169,7 +169,7 @@ img {
   margin-left: 2%;
 }
 .navigation .links {
-  width: 45%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -191,6 +191,11 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (max-width: 1000px) {
+  .home .home {
+    background-color: blue;
+  }
 }
 .home h1 {
   font-size: 7rem;
