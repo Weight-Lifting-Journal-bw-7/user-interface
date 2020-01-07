@@ -261,11 +261,13 @@ img {
   padding: 2% 0%;
   border-top: solid black 0.3rem;
   border-bottom: solid black 0.3rem;
+  letter-spacing: 1rem;
 }
 .main h3 {
   font-size: 2rem;
   margin: 10% 0%;
   font-weight: bold;
+  letter-spacing: 0.3rem;
 }
 .main p {
   line-height: 220%;
@@ -377,4 +379,17 @@ footer p {
   color: #F2F2F2;
   font-size: 1.4rem;
   padding-bottom: 1%;
+}
+.about {
+  background-image: url(https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-position: 50% 30%;
+  height: 40vh;
+}
+.us .us_two {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.us .us_two #four {
+  margin: 4% 10%;
+  width: 30%;
 }
