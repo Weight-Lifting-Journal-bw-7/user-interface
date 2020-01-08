@@ -175,10 +175,10 @@ img {
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 1% 0%;
+  padding: 0.6% 0%;
 }
 .navigation i {
-  width: 50%;
+  width: 75%;
   font-size: 6rem;
   margin-left: 2%;
 }
