@@ -1,0 +1,47 @@
+.about{
+background-image: url(https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) ;
+background-position: 50% 30%;
+height:40vh;
+}
+
+
+.us{
+   
+   
+    .us_two{
+        justify-content: center;
+        flex-wrap: wrap;
+        width:55%;
+        
+        i{
+            font-size: 5rem;
+            color:black;
+            margin-bottom:6%;
+            opacity:50%;
+            transition-duration: 1s;
+            &:hover{
+                opacity:100%;
+            }
+            
+        } 
+    
+      
+
+        #four{
+            margin: 4% 3%;
+            width:26%
+            
+        }
+        
+    }
+
+    @media @mobile{
+        .us_two{
+            .flex();
+            flex-direction: column;
+            #four{
+                width:100%;
+            }
+        }
+    }
+}
