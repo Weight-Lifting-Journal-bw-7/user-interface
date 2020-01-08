@@ -13,20 +13,31 @@ height:40vh;
         flex-wrap: wrap;
         width:55%;
         
+        i{
+            font-size: 5rem;
+            color:black;
+            margin-bottom:6%;
+            opacity:50%;
+            transition-duration: 1s;
+            &:hover{
+                opacity:100%;
+            }
+            
+        } 
     
       
 
         #four{
             margin: 4% 3%;
             width:26%
+            
         }
         
     }
 
     @media @mobile{
         .us_two{
-            display:flex;
-            justify-content: center;
+            .flex();
             flex-direction: column;
             #four{
                 width:100%;

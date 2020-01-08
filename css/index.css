@@ -12,6 +12,15 @@
   transition-duration: 0.4s;
   cursor: pointer;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  text-align: center;
+  margin: 0% 5%;
+  background-color: #e6e3e3;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -196,6 +205,11 @@ img {
   color: black;
   font-weight: bold;
 }
+.navigation .links a:hover {
+  transition-duration: 0.4s;
+  font-size: 1.85rem;
+  color: #666666;
+}
 @media (max-width: 500px) {
   .navigation .links {
     width: 100%;
@@ -277,6 +291,14 @@ img {
   border-top: solid black 0.3rem;
   border-bottom: solid black 0.3rem;
   letter-spacing: 1rem;
+}
+.main h1:hover {
+  border-top: solid black 0.3rem;
+  border-bottom: solid black 0.3rem;
+  letter-spacing: 0.5rem;
+  margin-left: 35%;
+  margin-right: 35%;
+  transition-duration: 0.6s;
 }
 .main h3 {
   font-size: 2rem;
@@ -405,6 +427,16 @@ footer p {
   justify-content: center;
   flex-wrap: wrap;
   width: 55%;
+}
+.us .us_two i {
+  font-size: 5rem;
+  color: black;
+  margin-bottom: 6%;
+  opacity: 50%;
+  transition-duration: 1s;
+}
+.us .us_two i:hover {
+  opacity: 100%;
 }
 .us .us_two #four {
   margin: 4% 3%;

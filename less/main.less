@@ -12,6 +12,16 @@
         border-top:solid black 0.3rem;
         border-bottom:solid black 0.3rem;
         letter-spacing: 1.0rem;
+
+        &:hover{
+        border-top:solid black 0.3rem;
+        border-bottom:solid black 0.3rem;
+        letter-spacing: 0.5rem;
+        margin-left: 35%;
+        margin-right: 35%;
+        transition-duration: 0.6s;
+        
+        }
         
 
     }
@@ -83,8 +93,7 @@
 
 .second{
     margin: 6% 2%;
-    display: flex;
-    justify-content: center;
+    .flex();
     flex-direction: column;
     align-items: center;
 
@@ -97,6 +106,8 @@
         }
     }
 
+    
+
     .testimonials{
         display:flex;
         justify-content: space-between;
@@ -105,21 +116,15 @@
         
 
         #four{
-            text-align: center;
-            margin: 0% 5%;
-            background-color: #e6e3e3;
+            .box();
             
         }
         #five{
-            text-align: center;
-            margin: 0% 5%;
-            background-color: #e6e3e3;
+            .box();
             
         }
         #six{
-            text-align: center;
-            margin: 0% 5%;
-            background-color: #e6e3e3;
+            .box();
         }
 
     }
