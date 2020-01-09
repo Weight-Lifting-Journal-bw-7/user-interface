@@ -275,7 +275,7 @@ img {
 .middle h1 {
   font-size: 4rem;
   font-weight: bolder;
-  color: #F26363;
+  color: #ff7373;
 }
 @media (max-width: 500px) {
   .middle h1 {
