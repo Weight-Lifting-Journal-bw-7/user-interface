@@ -21,6 +21,10 @@
   margin: 0% 5%;
   background-color: #e6e3e3;
 }
+.boxmain {
+  text-align: center;
+  padding: 0% 5%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -212,7 +216,7 @@ img {
 }
 @media (max-width: 500px) {
   .navigation .links {
-    width: 100%;
+    width: 200%;
     padding-top: 4%;
   }
 }
@@ -271,7 +275,7 @@ img {
 .middle h1 {
   font-size: 4rem;
   font-weight: bolder;
-  color: #F26363;
+  color: #ff7373;
 }
 @media (max-width: 500px) {
   .middle h1 {
@@ -332,6 +336,11 @@ img {
   .main h1 {
     font-size: 2.7rem;
     margin-bottom: 6%;
+    border-top: solid black 0.3rem;
+    border-bottom: solid black 0.3rem;
+    letter-spacing: 0.5rem;
+    margin-left: 35%;
+    margin-right: 35%;
   }
   .main .tools {
     display: flex;
