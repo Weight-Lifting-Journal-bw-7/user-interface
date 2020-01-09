@@ -11,7 +11,9 @@ into any location
 
 ###### This project uses LESS!
 
-Inside the index.less file is the imports to the individual LESS/CSS files in the following order
+Follow this to learn how to install [Less](http://lesscss.org/usage/).
+
+Inside the index.less file are the imports to the individual LESS/CSS files in the following order
 
 ```
 //VARIABLES & MIXINS
