@@ -382,6 +382,9 @@ img {
 .second button:hover {
   opacity: 100;
 }
+.second a {
+  margin-top: 4%;
+}
 .second .testimonials {
   display: flex;
   justify-content: space-between;
